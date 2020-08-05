@@ -20,6 +20,10 @@
 
 sudo: required
 
+arch:
+  - amd64
+  - arm64
+  
 language: go
 
 # Go modules require xenial for mercurial TLS 1.2 support
